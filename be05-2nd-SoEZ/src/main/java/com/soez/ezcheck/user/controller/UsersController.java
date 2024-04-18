@@ -166,6 +166,21 @@ public class UsersController {
 	}
 
 	/**
+	 * 사용자로부터 입력받은 ID와 새로운 비밀번호로 비밀번호 변경
+	 * @author Jihwan
+	 * @param request 사용자 ID, 새로운 비밀번호
+	 * @return 비밀번호 변경 성공여부에 따른 결과 메시지
+	 */
+	@PostMapping("/change-password")
+	public ResponseEntity<String> changePassword(@RequestBody Map<String, String> request) {
+		String userId = request.get("userId");
+		String newPassword = request.get("newPassword");
+		userService.updatePassword(userId, newPassword);
+
+		return new ResponseEntity<>("비밀번호가 성공적으로 변경되었습니다.", HttpStatus.OK);
+	}
+
+	/**
 	 * 사용자로부터 입력받은 ID와 비밀번호로 사용자 계정 삭제
 	 * @author Jihwan
 	 * @param accountDeleteDTO 사용자 ID, 비밀번호
