@@ -89,20 +89,16 @@
       체크 아웃이 가능하도록 합니다.
 </br>
 
-## 📅 WBS
-[WBS 바로가기 >](https://docs.google.com/spreadsheets/d/1wkCAW3SN-maeXB0BXnZn7svSK6Sjo7YLFL-78kbF_vw/edit#gid=1531810588)
-<div align="left"><img src="https://github.com/beyond-sw-camp/be05-2nd-SoEZ-EZCheck/assets/112090609/fb9cf783-68b9-4bef-b2cd-7e25917bdedd" width="600" /></div>
-</br>
-
 ## 📝 기능 명세서
 [요구사항 명세서 바로가기 >](https://docs.google.com/spreadsheets/d/1wkCAW3SN-maeXB0BXnZn7svSK6Sjo7YLFL-78kbF_vw/edit#gid=1162915854)
 <div align="left"><img src="https://github.com/beyond-sw-camp/be05-2nd-SoEZ-EZCheck/assets/112090609/d4aa6fdb-d341-4c08-a6e6-12b3e582033b" width="600" /></div>
 </br>
 
 ## 📝 Wire Frame
-[요구사항 명세서 바로가기 >](https://docs.google.com/spreadsheets/d/1wkCAW3SN-maeXB0BXnZn7svSK6Sjo7YLFL-78kbF_vw/edit#gid=1162915854)
-<div align="left"><img src="https://github.com/beyond-sw-camp/be05-2nd-SoEZ-EZCheck/assets/112090609/d4aa6fdb-d341-4c08-a6e6-12b3e582033b" width="600" /></div>
-</br>
+![프론트 설계1](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/112090609/c18b143f-8596-481a-931f-d5ddd9020ee3)
+![프론트 설계3](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/112090609/1d8d358b-4d86-47c7-a4b0-988b3a21ce82)
+![프론트 설계4](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/112090609/cc8f4815-efbc-4457-97c6-53bfc457c732)
+
 
 ## 📝 스토리 보드
 [요구사항 명세서 바로가기 >](https://docs.google.com/spreadsheets/d/1wkCAW3SN-maeXB0BXnZn7svSK6Sjo7YLFL-78kbF_vw/edit#gid=1162915854)
