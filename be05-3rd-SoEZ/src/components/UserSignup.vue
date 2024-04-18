@@ -13,7 +13,7 @@
                             placeholder="ID를 입력하세요">
                     </div>
                     <div class="col-sm-3">
-                        <button class="btn btn-primary mt-1" @click="checkId">중복확인</button>
+                        <button class="btn btn-primary mt-1" @click="checkId" @blur="checkId">중복확인</button>
                     </div>
                     <div class="col-sm-12 mt-2">
                         <div class="alert" :class="{ 'alert-success': isIdValid, 'alert-danger': !isIdValid }"
@@ -104,7 +104,7 @@
                 <div class="row">
                     <div class="col-sm-9"></div>
                     <div class="col-sm-3">
-                        <button type="submit" class="btn btn-primary mt-1" :disabled="!isAllValid">가입요청</button>
+                        <button @click="showModal=true" type="submit" class="btn btn-primary mt-1" :disabled="!isAllValid">가입요청</button>
                     </div>
                 </div>
             </form>
