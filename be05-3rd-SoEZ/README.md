@@ -96,7 +96,7 @@
 </br>
 
 ## 📝 와이어 프레임
-[와이어 프레임 바로가기 >](https://www.figma.com/file/QjTD5cd8byrfufmFhWQ5QR/Untitled?type=whiteboard&node-id=0%3A1&t=LMKgZ9fGq9GUBTgc-1))
+[와이어 프레임 바로가기 ](https://www.figma.com/file/QjTD5cd8byrfufmFhWQ5QR/Untitled?type=whiteboard&node-id=0%3A1&t=LMKgZ9fGq9GUBTgc-1))
 ![와이어 프레임](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/140836341/5a47a01a-1797-4f5e-a8b3-685376ee4f4a)
 </br>
 
