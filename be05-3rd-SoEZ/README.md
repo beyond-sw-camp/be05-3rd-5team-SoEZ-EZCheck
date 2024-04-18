@@ -101,7 +101,7 @@
 </br>
 
 ## 📝 기능 명세서
-[기능명세서 바로가기](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/files/15028483/3.-5.xlsx))
+[기능명세서 바로가기 ](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/files/15028483/3.-5.xlsx))
 ![기능명세서](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/140836341/e3417829-ff0d-4cb1-ac34-8812d6a3335e)
 
 </br>
@@ -110,28 +110,37 @@
 [3rd 스토리보드.pdf](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/files/15027859/3rd.pdf)
         <details>
             <summary> HomePage</summary>
+            </br>
               <img src="https://github.com/beyond-sw-camp/be05-2nd-SoEZ-EZCheck/assets/140836341/f9bb8f4b-661c-4433-bf66-bff1136c8527"/>
         </details>
         <details>
             <summary>UserPage</summary>
+             </br>
                 1. 사용자 회원가입
+                </br>
                     ![회원가입페이지](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/140836341/ce76d874-c007-4711-ad94-3ee339446145)
                     ![회원가입페이지2](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/140836341/f051c6dc-6098-4e28-af30-4b6ae28bbcca)
                     ![회원가입페이지3](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/140836341/e3a35f98-6bfe-4b0b-8d67-4f84fa6d12b1)
-                2. 객실 예약 
+                </br>
+                2. 객실 예약
+                 </br>
                     ![사용자페이지](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/140836341/81bb39a6-0530-43b1-b2ee-795099a9832a)
                     ![사용자페이지2](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/140836341/fe044b87-ddfe-4c37-a540-1b48b751bef9)
                     ![사용자페이지3](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/140836341/e0c24501-50d9-48b2-bedd-beaaa33c9432)
                 3. 사용자 정보 확인 및 탈퇴
+                 </br>
                     ![사용자페이지4](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/140836341/6fda1675-e543-4bcb-8aaf-a1c7324776d1)
                     ![사용자페이지5](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/140836341/afd3a342-8f60-4bfd-88c5-22876f97a92a)
                 4. 객실 체크인 및 체크아웃
+                 </br>
                     ![사용자페이지6](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/140836341/7e64d7a7-1da8-4b74-baec-db7d689612c3)
                     ![사용자페이지7](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/140836341/9f22611f-998e-4e87-8182-5b45df8c9598)
                     ![사용자페이지8](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/140836341/4e0f6961-4b78-48ca-924c-87e4bc54754d)
+                    </br>
        </details>
        <details>
             <summary>AdminPage</summary>
+            </br>
                     ![관리자페이지](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/140836341/62515806-47b0-4fcf-ae6b-ba63bcd29c48)
                     ![관리자페이지2](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/140836341/efd2b605-3831-4d53-9827-55437591e390)
                     ![관리자페이지3](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/140836341/005fed9e-d52a-4e6e-9ebf-daa7a1734f7b)  
@@ -139,7 +148,7 @@
 </br>
 
 ## 📝 테스트 케이스 정의서 및 결과
-[테스트 케이스 정의서 바로가기 >](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/files/15028483/3.-5.xlsx))
+[테스트 케이스 정의서 바로가기 ](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/files/15028483/3.-5.xlsx))
 ![기능명세서](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/140836341/f76897dc-ed6b-401e-8210-671dee44e1b3)
 
 
