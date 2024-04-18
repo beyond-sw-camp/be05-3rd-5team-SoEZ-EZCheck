@@ -124,12 +124,12 @@
                 </br>
                 2. 객실 예약
                  </br>
-                    ![사용자페이지](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/140836341/81bb39a6-0530-43b1-b2ee-795099a9832a)
+                    ![red](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/140836341/1678e2f1-ef61-4d61-bc36-301c08760742)
                     ![사용자페이지2](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/140836341/fe044b87-ddfe-4c37-a540-1b48b751bef9)
                     ![사용자페이지3](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/140836341/e0c24501-50d9-48b2-bedd-beaaa33c9432)
                 3. 사용자 정보 확인 및 탈퇴
                  </br>
-                    ![사용자페이지4](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/140836341/6fda1675-e543-4bcb-8aaf-a1c7324776d1)
+                    ![red2](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/140836341/a723e6d5-b6a9-4f40-b522-062a9546ce1a)
                     ![사용자페이지5](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/140836341/afd3a342-8f60-4bfd-88c5-22876f97a92a)
                 4. 객실 체크인 및 체크아웃
                  </br>
