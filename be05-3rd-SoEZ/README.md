@@ -101,7 +101,7 @@
 </br>
 
 ## 📝 기능 명세서
-[기능명세서 바로가기 >](https://docs.google.com/spreadsheets/d/1bX7UvQHcJpQSvJ-iSarcv6vZj0Co_47Tin0FtPCHkd8/edit#gid=340836540))
+[기능명세서 바로가기](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/files/15028483/3.-5.xlsx))
 ![기능명세서](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/140836341/e3417829-ff0d-4cb1-ac34-8812d6a3335e)
 
 </br>
@@ -139,7 +139,7 @@
 </br>
 
 ## 📝 테스트 케이스 정의서 및 결과
-[테스트 케이스 정의서 바로가기 >](https://docs.google.com/spreadsheets/d/1wkCAW3SN-maeXB0BXnZn7svSK6Sjo7YLFL-78kbF_vw/edit#gid=470383235))
+[테스트 케이스 정의서 바로가기 >](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/files/15028483/3.-5.xlsx))
 ![기능명세서](https://github.com/beyond-sw-camp/be05-3rd-SoEZ-EZCheck/assets/140836341/f76897dc-ed6b-401e-8210-671dee44e1b3)
 
 
