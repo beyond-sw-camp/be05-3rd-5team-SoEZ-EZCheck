@@ -17,8 +17,8 @@
             <label>이메일:</label>
             <p>{{ userInfo.email }}</p>
         </div>
-        <button class="reset-password-btn" @click="showPwdResetModal = true">비밀번호 재설정</button>
         <button class="delete-account-btn" @click="showDeleteModal = true">회원 탈퇴</button>
+        <button class="reset-password-btn" @click="showPwdResetModal = true">비밀번호 재설정</button>
 
         <!-- 회원 탈퇴 모달 -->
         <div v-if="showDeleteModal" class="modal">
@@ -29,10 +29,28 @@
                 <input v-model="password" type="password" placeholder="비밀번호">
                 <div class="button-container">
                     <button class="cancel-btn" @click="cancelDeletion">취소</button>
-                    <button class="delete-btn" @click="deleteAccount">회원 탈퇴</button>
+                    <button class="delete-btn" @click="showDeleteConfirmModal = true">회원 탈퇴</button>
                 </div>
             </div>
         </div>
+
+        <div v-if="showDeleteConfirmModal" class="modal">
+            <div class="modal-content">
+                <h2>회원 탈퇴</h2>
+                <h6>정말로 탈퇴하시겠습니까?</h6>
+                <div class="button-container">
+                    <button class="cancel-btn" @click="cancelDeletion">NO</button>
+                    <button class="delete-btn" @click="deleteAccount">YES</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div v-if="isDeleteClicked" class="modal">
+            <div class="modal-content">
+                <p>{{ deleteResult.value }}</p>
+                <button class="cancel-btn" @click="routeToHomePage">확인</button>
+            </div>
+        </div> -->
 
         <!-- 비밀번호 재설정 모달 -->
         <div v-if="showPwdResetModal" class="modal">
@@ -103,6 +121,7 @@ export default {
         const router = useRouter();
         const showDeleteModal = ref(false);
         const showPwdResetModal = ref(false);
+        const showDeleteConfirmModal = ref(false);
         const password = ref('');
         const email = ref('');
         const authCode = ref('');
@@ -111,6 +130,8 @@ export default {
         const isAuthCodeValid = ref(false);
         const showResetResultModal = ref(false);
         const resetResult = ref('');
+        const deleteResult = ref('');
+        const isDeleteClicked = ref(false);
 
         const deleteAccount = async () => {
             try {
@@ -120,6 +141,7 @@ export default {
                         password1: password.value,
                     }
                 });
+                deleteResult.value = response.data;
                 if (response.status === 200) {
                     console.log('회원 탈퇴 성공:', response.data);
                     localStorage.removeItem('token');
@@ -133,10 +155,12 @@ export default {
             } catch (error) {
                 console.error('회원 탈퇴 오류:', error);
             }
+            // isDeleteClicked.value = true;
             showDeleteModal.value = false;
         };
 
         const cancelDeletion = () => {
+            showDeleteConfirmModal.value = false;
             showDeleteModal.value = false;
         };
 
@@ -208,11 +232,20 @@ export default {
                 // alert("비밀번호 재설정에 실패했습니다.");
             }
             showResetResultModal.value = true;
+            email.value = '';
+            authCode.value = '';
+            newPassword.value = '';
         }
 
         const closeAllModal = () => {
             showResetResultModal.value = false;
             showPwdResetModal.value = false;
+        }
+
+        const routeToHomePage = () => {
+            isDeleteClicked.value = false;
+            showDeleteConfirmModal.value = false;
+            router.push('/');
         }
 
 
@@ -224,6 +257,7 @@ export default {
             showDeleteModal,
             showPwdResetModal,
             showResetResultModal,
+            showDeleteConfirmModal,
             password,
             email,
             authCode,
@@ -231,6 +265,8 @@ export default {
             isAuthCodeValid,
             newPassword,
             resetResult,
+            isDeleteClicked,
+            deleteResult,
             sendAuthEmail,
             deleteAccount,
             cancelDeletion,
@@ -238,6 +274,7 @@ export default {
             checkAuthCode,
             resetPassword,
             closeAllModal,
+            routeToHomePage,
         }
     }
 }
@@ -312,11 +349,10 @@ button {
 
 .modal-content input[type="password"] {
     width: calc(100% - 20px);
-    padding: 10px;
-    margin-bottom: 20px;
+    padding: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 .button-container {
@@ -360,13 +396,13 @@ button {
 }
 
 .button-wrapper {
-    background-color: lightseagreen;
-    color: black;
+    background-color: #007bff;
+    color: white;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 10px 10px;
     text-align: center;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
     margin-left: auto;
 }

@@ -110,6 +110,21 @@ public class UserService {
 	}
 
 	/**
+	 * 사용자 비밀번호 업데이트
+	 * @author Jihwan
+	 * @param userId 사용자 ID
+	 * @param newPassword 새로운 비밀번호
+	 */
+	public void updatePassword(String userId, String newPassword) {
+		Users user = usersRepository.findById(userId)
+			.orElseThrow(() -> new UsernameNotFoundException(userId + "와 일치하는 사용자가 없습니다."));
+
+		String encodedPassword = passwordEncoder.encode(newPassword);
+		user.setUPwd(encodedPassword);
+		usersRepository.save(user);
+	}
+
+	/**
 	 * 사용자로부터 입력받은 아이디와 비밀번호가 일치하는지 확인
 	 * @author Jihwan
 	 * @param userId 사용자 ID
