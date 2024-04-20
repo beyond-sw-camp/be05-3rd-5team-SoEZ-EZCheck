@@ -45,12 +45,12 @@
             </div>
         </div>
 
-        <div v-if="isDeleteClicked" class="modal">
+        <!-- <div v-if="isDeleteClicked" class="modal">
             <div class="modal-content">
-                <p>{{ deleteResult }}</p>
+                <p>{{ deleteResult.value }}</p>
                 <button class="cancel-btn" @click="routeToHomePage">확인</button>
             </div>
-        </div>
+        </div> -->
 
         <!-- 비밀번호 재설정 모달 -->
         <div v-if="showPwdResetModal" class="modal">
@@ -146,16 +146,16 @@ export default {
                     console.log('회원 탈퇴 성공:', response.data);
                     localStorage.removeItem('token');
                     localStorage.removeItem('userId');
-                    // alert('회원 탈퇴가 완료되었습니다.');
-                    // router.push('/');
+                    alert('회원 탈퇴가 완료되었습니다.');
+                    router.push('/');
                 } else {
                     console.log('회원 탈퇴 실패', response.data);
-                    // alert('회원 탈퇴에 실패했습니다.');
+                    alert('회원 탈퇴에 실패했습니다.');
                 }
             } catch (error) {
                 console.error('회원 탈퇴 오류:', error);
             }
-            isDeleteClicked.value = true;
+            // isDeleteClicked.value = true;
             showDeleteModal.value = false;
         };
 
